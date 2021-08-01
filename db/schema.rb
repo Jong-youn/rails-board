@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2021_07_18_110254) do
+ActiveRecord::Schema.define(version: 2021_08_01_052141) do
 
   create_table "articles", force: :cascade do |t|
     t.string "title"
@@ -34,7 +34,7 @@ ActiveRecord::Schema.define(version: 2021_07_18_110254) do
     t.datetime "remember_created_at"
     t.string "account"
     t.string "nickname"
-    t.integer "role_id"
+    t.integer "role_id", default: 2
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
     t.index ["email"], name: "index_users_on_email", unique: true
