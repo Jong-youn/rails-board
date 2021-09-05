@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2021_09_04_145127) do
+ActiveRecord::Schema.define(version: 2021_09_05_022937) do
 
   create_table "articles", force: :cascade do |t|
     t.string "title"
@@ -29,7 +29,6 @@ ActiveRecord::Schema.define(version: 2021_09_04_145127) do
   create_table "users", force: :cascade do |t|
     t.string "email", default: "", null: false
     t.datetime "remember_created_at"
-    t.string "account"
     t.integer "role_id", default: 2
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
