@@ -32,7 +32,6 @@ class UsersController < ApplicationController
 
     def show
         @articles = @user.articles.paginate(page: params[:page], per_page: 5)
-        print(@articles)
     end
 
     def index
