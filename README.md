@@ -1,24 +1,11 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is blog with Ruby on Rails.
 
-Things you may want to cover:
+- CRUD article, category
+- Some restricted feature depending on role
+- Sign up / log in
+- Unit, Integration test code 
+- Deployed by Heroku
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+URL: https://rails-blog-12365345.herokuapp.com/
